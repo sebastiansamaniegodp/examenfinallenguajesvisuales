@@ -7,7 +7,7 @@ namespace SysWpfUninorte.Utilidades
     public class Conexion
     {
         private SqlConnection sqlConexion = new SqlConnection(ConfigurationManager.
-            ConnectionStrings["SysWpfUninorte.Properties.Settings.uninorteConnectionString"].ConnectionString);
+            ConnectionStrings["conexionSQL_SERVER"].ConnectionString);
 
         public SqlConnection AbrirConexion()
         {

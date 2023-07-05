@@ -16,7 +16,7 @@ namespace SysWpfUninorte.Dao
             try
             {
                 cmd.Connection = con.AbrirConexion();
-                cmd.CommandText = "SELECT username,password FROM usuarios WHERE nombres=@username and contraseña=@password";
+                cmd.CommandText = "SELECT nombres,password FROM usuarios WHERE nombres=@username and password=@password";
                 cmd.CommandType = System.Data.CommandType.Text;
 
                 cmd.Parameters.AddWithValue("@username", usuario.Username);
