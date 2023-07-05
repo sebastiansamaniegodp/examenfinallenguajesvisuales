@@ -66,10 +66,10 @@
     <Compile Include="Entidades\Alumno.cs" />
     <Compile Include="Entidades\Docente.cs" />
     <Compile Include="Entidades\Usuario.cs" />
-    <Compile Include="uninorteDataSet.Designer.cs">
+    <Compile Include="UninorteStoreDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>uninorteDataSet.xsd</DependentUpon>
+      <DependentUpon>UninorteStoreDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Utilidades\Conexion.cs" />
     <Compile Include="Vistas\ABMDocentes.xaml.cs">
@@ -132,16 +132,16 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="uninorteDataSet.xsc">
-      <DependentUpon>uninorteDataSet.xsd</DependentUpon>
+    <None Include="UninorteStoreDataSet.xsc">
+      <DependentUpon>UninorteStoreDataSet.xsd</DependentUpon>
     </None>
-    <None Include="uninorteDataSet.xsd">
+    <None Include="UninorteStoreDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>uninorteDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>UninorteStoreDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="uninorteDataSet.xss">
-      <DependentUpon>uninorteDataSet.xsd</DependentUpon>
+    <None Include="UninorteStoreDataSet.xss">
+      <DependentUpon>UninorteStoreDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
